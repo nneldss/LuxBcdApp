@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/row_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textViewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="STONEHILL"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansita_black"
+                android:textSize="40sp"
+                android:visibility="visible"/>
+        </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:clickable="true"
+            android:src="@drawable/stonehillimg" />
+
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textViewParagraph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Stonehill Suites is a tribute of Bacolod-based contractor and businessman, Jerry Sy to the beautiful city he calls home. Stonehill Suites does not only promote comfort and convenience, it provides a lifestyle wherein guests can visualize staying for a longer period of time and hopefully fall in love with the city
+
+Address - 18th Street Corner San Agustin Drive , Bacolod City , Negros Occidental , 6100
+Email - ask@stonehill.com.ph"
+        android:textColor="@color/black"
+        android:fontFamily="@font/didact_gothic"
+        android:textSize="12sp" />
+</TableLayout>

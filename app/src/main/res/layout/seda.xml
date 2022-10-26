@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/row_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textViewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="SEDA"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansita_black"
+                android:textSize="40sp"
+                android:visibility="visible"/>
+        </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:clickable="true"
+            android:src="@drawable/sedaimg" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textViewParagraph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Seda Capitol Central ushers in a new chapter in the Provincial Capitol’s history with facilities that cater to the modern lifestyle. Located in Bacolod City’s commercial and business district, the newly-opened Seda Hotel offers discerning travelers a combination of contemporary business and leisure amenities, technological conveniences and a unique brand of service and efficiency.
+
+Address - Lacson Street cor. North Capitol Road, Bacolod City, Negros Occidental 6100 Philippines
+Email - capitol@sedahotels.com"
+        android:textColor="@color/black"
+        android:fontFamily="@font/didact_gothic"
+        android:textSize="12sp" />
+</TableLayout>
